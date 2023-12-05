@@ -9,7 +9,8 @@ test:
 	sleep 1
 	DISPLAY=:1 ./build/astwm &
 	DISPLAY=:1 xclock &
-	DISPLAY=:1 xterm
+	DISPLAY=:1 xterm 
+
 
 clean:
 	rm -f ./build/*
